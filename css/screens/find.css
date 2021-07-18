@@ -1,0 +1,119 @@
+.find-recom {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.find-recom span {
+  display: block;
+}
+
+.find-recom > span {
+  margin-top: 15px;
+}
+
+.find-recom span:last-child {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.open-chat__text {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.open-chat__text > span {
+  font-weight: 600;
+}
+
+.open-chat__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-chat__content {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.open-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.open-post span:first-child {
+  font-size: 17px;
+  margin: 5px 0px;
+}
+.open-post span:nth-child(2) {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.open-post__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.open-post__info img {
+  width: 20px;
+  height: 20px;
+  border-radius: 8px;
+}
+
+.open-post__info :not(img) {
+  margin-left: 5px;
+}
+
+.open-post__info span:last-child {
+  color: hotpink;
+  font-weight: 400;
+}
+
+.open-post__info-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.open-post__info-img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.open-post__info-img div {
+  width: 50px;
+  height: 20px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 65px;
+  right: 4px;
+}
+
+.open-post__info-img div i {
+  margin-right: 2px;
+}

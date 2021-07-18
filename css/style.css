@@ -1,0 +1,51 @@
+/* Components */
+@import "Components/status-bar.css";
+@import "Components/navigation-bar.css";
+@import "Components/screen-header.css";
+@import "Components/main-screen.css";
+@import "Components/user-components.css";
+@import "Components/icon-row.css";
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "reset.css";
+
+#no-mobile {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+  position: absolute;
+  z-index: 99;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  font-size: xx-large;
+}
+
+.badge {
+  width: 20px;
+  height: 20px;
+  color: white;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider {
+  width: 1px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*
+@media screen and (max-width: 500px) {
+  #no-mobile {
+    display: none;
+  }
+}*/
