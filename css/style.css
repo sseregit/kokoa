@@ -1,22 +1,24 @@
 /* Components */
-@import "Components/status-bar.css";
-@import "Components/navigation-bar.css";
-@import "Components/screen-header.css";
-@import "Components/main-screen.css";
-@import "Components/user-components.css";
-@import "Components/icon-row.css";
+@import "components/status-bar.css";
+@import "components/navigation-bar.css";
+@import "components/screen-header.css";
+@import "components/main-screen.css";
+@import "components/user-components.css";
+@import "components/icon-row.css";
+@import "components/badge.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
 @import "reset.css";
 
 #no-mobile {
   width: 100vw;
   height: 100vh;
-  background-color: green;
+  background-image: url("https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F27070E4351B9450E2E");
   position: absolute;
   z-index: 99;
   display: none;
@@ -26,26 +28,14 @@
   font-size: xx-large;
 }
 
-.badge {
-  width: 20px;
-  height: 20px;
-  color: white;
-  border-radius: 50%;
-  background-color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .divider {
   width: 1px;
   height: 15px;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/*
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 645px) {
   #no-mobile {
     display: none;
   }
-}*/
+}

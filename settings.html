@@ -23,10 +23,16 @@
       </div>
     </div>
 
-    <header id="screen-header">
-      <a href="more.html"><i class="fas fa-chevron-left fa-lg"></i></a>
-      <span class="screen-header__title">Settings</span>
-      <div class="screen-header">
+    <header id="alt-screen-header">
+      <div class="alt-screen__column">
+              <a href="more.html">
+        <span ><i class="fas fa-chevron-left fa-lg"></i></span>
+        </a>
+      </div>
+      <div class="alt-screen__column">
+        <span class="alt-screen-header__title">Settings</span>
+      </div>      
+      <div class="alt-screen__column">
         <i class="fas fa-search fa-lg"></i>
       </div>
     </header>
@@ -89,10 +95,25 @@
     </main>
 
     <nav id="navigation-bar">
-      <a href="friends.html"><i class="far fa-user fa-lg"></i></a>
-      <a href="chats.html"><i class="far fa-comment fa-lg"></i></a>
-      <a href="find.html"><i class="fas fa-search fa-lg"></i></a>
-      <a href="more.html"><i class="fas fa-ellipsis-h fa-lg"></i></a>
+      <ul class="nav-list">
+        <li class="nav-btn">
+          <span></span>
+          <a href="friends.html"><i class="far fa-user fa-lg"></i></a>
+        </li>
+        <li class="nav-btn">
+          <span></span>
+          <a href="chats.html"><i class="far fa-comment fa-lg"></i></a>
+                    <span class="number-badge number-badge__nav">22</span>
+        </li>
+        <li class="nav-btn">
+          <span class="badge badge__nav"></span>
+          <a href="find.html"><i class="fas fa-search fa-lg"></i></a>
+        </li>
+        <li class="nav-btn">
+          <a href="more.html">
+          <span class="badge badge__nav"></span><i class="fas fa-ellipsis-h fa-lg"></i></a>
+        </li>
+      </ul>              
     </nav>
     <div id="no-mobile">
       <span>Your screen is too big</span>

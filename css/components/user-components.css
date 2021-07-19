@@ -71,6 +71,11 @@
   color: rgba(0, 0, 0, 0.4);
 }
 
+.user-components__subtitle i{
+  margin-left: 5px;
+  color: tomato;
+}
+
 .user-components__img {
   margin-right: 10px;
 }
@@ -92,4 +97,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.user-component__text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }

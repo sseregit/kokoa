@@ -1,0 +1,51 @@
+.badge {
+  width: 5px;
+  height: 5px;  
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+}
+
+.badge__nav {
+  right: 30px;
+  top: 10px;
+}
+
+.badge__icon {
+  right: 5px;
+  top: -5px;
+}
+
+.badge__header {
+  right: -7px;
+  top: -5px;
+
+}
+
+.number-badge {
+  width: 20px;
+  height: 20px;
+  color: white;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes numberBadgeCircle {
+  from {
+    transform: none;
+  }to {
+    transform: rotateY(360deg)
+  } 
+}
+
+.number-badge__nav {
+  font-size: 15px;
+  position: absolute;
+  right: 27px;
+  top: 5px;
+  animation: numberBadgeCircle 2s linear infinite;
+}
+

@@ -12,13 +12,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .icon-row i {
   margin-bottom: 10px;
 }
 
-.icon-row span {
+.icon-row i + span {
   width: 80px;
   text-align: center;
   margin-bottom: 25px;
