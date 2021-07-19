@@ -18,14 +18,34 @@
 #no-mobile {
   width: 100vw;
   height: 100vh;
-  background-image: url("https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F27070E4351B9450E2E");
+  background-color: #000000;
   position: absolute;
   z-index: 99;
-  display: none;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   top: 0;
   font-size: xx-large;
+}
+
+#no-mobile span {
+  color: white;
+  z-index: 1;
+}
+
+@keyframes spin {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+#no-mobile img {
+  color: #004098;
+  animation: spin 5s linear infinite;
 }
 
 .divider {
@@ -34,7 +54,7 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 650px) {
   #no-mobile {
     display: none;
   }
